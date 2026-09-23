@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
+
+.calculator {
+  width: 300px;
+}
+
+.calculator h1 {
+  background-color: darkslategrey;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  border-radius: 10px;
+  color: white;
+}
+
+.list-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn button {
+  font-weight: 700;
+  font-size: 18px;
+  width: 46px;
+  height: 36px;
+}
